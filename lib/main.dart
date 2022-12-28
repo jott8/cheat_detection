@@ -1,5 +1,6 @@
 import 'package:cheat_detection/cheat_detection.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'CheatDetection',
         home: Scaffold(
-          body: CheatDetection(),
-        ));
+            // body: CheatDetection(),
+            body: CheatDetection()));
   }
 }
